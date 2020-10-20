@@ -10,8 +10,10 @@ def send():#function
         txt.insert(END,'\n'+"Bot => Hello")
     elif(e.get()=="how are you"):
         txt.insert(END,'\n'+"BOt => Fine thank You, What about you")
-    elif(e.get()=="iam fine"):
-        txt.insert(END,'\n'+"Bot =>"Good to hear")
+    elif (e.get() == "Iam good"):
+        txt.insert(END, '\n' + "BOt => Good to hear!!")
+    elif(e.get()=="bye"):
+        txt.insert(END,'\n'+"BOT => Bye!! see you later")
     else:
         txt.insert(END,'\n'+"Bot => Sorry i didnt get you")
     e.delete(0,END)
